@@ -1,0 +1,8 @@
+<div class="newlist">
+    <div class="model-box form-group">
+        <h1 class="title">Create a new List</h1>
+        <input #listInput type="text" class="form-control  has-background-light inputbox" placeholder="Enter list name">
+        <button class="btn space-cancle btn-secondary" routerLink="/">Cancle</button>
+        <button class="btn btn-primary make-space-add btn-rounded-corners" (click)="addList(listInput.value)">Add</button>
+    </div>
+</div>
